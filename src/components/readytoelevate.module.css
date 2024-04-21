@@ -1,0 +1,109 @@
+.section {
+  mask-image: url(../assets/svg/ready-to-elevate.svg);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  max-width: 1665px;
+  aspect-ratio: 1665/724;
+  margin: 0 auto;
+}
+
+.section > div {
+  padding: 138px 117px;
+  background-color: var(--ready-to-elevate-bg);
+  color: var(--ready-to-elevate-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.description {
+  max-width: 680px;
+}
+
+.description > h2 {
+  font-size: 64px;
+  font-weight: bolder;
+  margin: 0 0 45px 0;
+}
+
+.description > p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.returnsCalculator {
+  padding: 38px 20px;
+  border-radius: 20px;
+  border: 3px solid var(--returns-calculator-border);
+  background: var(--returns-calculator-bg);
+  color: var(--returns-calculator-color);
+  max-width: 600px;
+}
+
+.returnsCalculator > h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 11px 0;
+}
+
+.returnsCalculator > p {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto 34px auto;
+}
+
+.returnsCalculator > strong {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: var(--amount-bg);
+  color: var(--amount-color);
+  border: 1px solid var(--amount-border);
+  height: 64px;
+  width: 100%;
+  padding: 0 15px 0 20px;
+  line-height: 1;
+  margin-top: 9px;
+}
+
+.amount::after {
+  display: block;
+  content: url(../assets/png/trc-44.png);
+  line-height: 0;
+}
+
+.calcResult {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 22px;
+}
+
+.calcResult > strong {
+  display: block;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.calcResult > strong > small {
+  display: block;
+  font-size: inherit;
+  font-weight: 600;
+}

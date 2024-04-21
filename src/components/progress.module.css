@@ -1,0 +1,16 @@
+.progress {
+  display: block;
+  margin-top: 25px;
+  background-color: var(--progress-bg);
+  height: 16px;
+  width: 100%;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress > div {
+  background-color: var(--progress-color);
+  border-radius: 8px;
+  height: 100%;
+}

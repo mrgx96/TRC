@@ -5,7 +5,7 @@
 }
 
 .welcome {
-  background: transparent url(../assets/welcome-bg.svg) no-repeat center center;
+  background: transparent url(../assets/svg/welcome-bg.svg) no-repeat center center;
   min-height: 190px;
   position: absolute;
   font-size: 64px;

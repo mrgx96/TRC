@@ -1,6 +1,6 @@
 import style from './navigation.module.css';
-import telegram from '../assets/telegram.svg';
-import twitter from '../assets/twitter.svg';
+import telegram from '../assets/svg/telegram.svg';
+import twitter from '../assets/svg/twitter.svg';
 
 export default function Navigation() {
   return (

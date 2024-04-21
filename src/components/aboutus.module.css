@@ -1,0 +1,36 @@
+.aboutus {
+  padding-top: 110px;
+  padding-bottom: 80px;
+}
+
+.aboutus > h2 {
+  display: block;
+  font-size: 36px;
+  color: var(--color);
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: normal;
+  padding-bottom: 66px;
+}
+
+.aboutus > img {
+  margin-top: 90px;
+}
+
+.imageMask {
+  display: block;
+  mask-image: url(../assets/svg/aboutus-mask.svg);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  max-width: 1665px;
+  margin: 0 auto;
+  aspect-ratio: 1665/816;
+  height: auto;
+}
+
+.image {
+  background: black;
+  width: 100%;
+  height: 100%;
+}
