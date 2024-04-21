@@ -9,7 +9,10 @@
 
 .section > div {
   padding: 138px 117px;
-  background-color: var(--ready-to-elevate-bg);
+  background: var(--ready-to-elevate-bg) url(../assets/webp/ready-to-elevate.webp) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 200px;
   color: var(--ready-to-elevate-color);
   width: 100%;
   height: 100%;

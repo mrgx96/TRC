@@ -1,61 +1,30 @@
-@media (prefers-color-scheme: dark) {
-  :root {
-    --button-fill: #ffffff;
-    --button-border: #5c4f3f;
-    --button-shadow: #c5ac8e;
-    --background: #22333b;
-    --navigation-bg: #eae0d6;
-    --navigation-color: #000000;
-    --color: #ffffff;
-    --navigation-shadow: #22333b;
-    --nav-items-color: #5c4f3f;
-    --about-us-pie: url(./assets/svg/aboutus-pie-dark.svg);
-    --ready-to-elevate-bg: #eae0d6;
-    --ready-to-elevate-color: #22333b;
-    --returns-calculator-bg: #eae0d6;
-    --returns-calculator-color: #22333b;
-    --returns-calculator-border: #22333b;
-    --amount-bg: #5c4f3f;
-    --amount-color: #ffffff;
-    --amount-border: #eae0d6;
-    --progress-bg: #22333b15;
-    --progress-color: #22333b;
-    --rich-club-coin-bg: url(./assets/webp/rich-club-coin-light.webp);
-    --rich-club-coin-title: #5c4f3f;
-    --rich-club-coin-bg-color: #ffffff;
-    --rich-club-coin-color: #000000;
-    --footer-bar: #22333b;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --button-fill: #ffffff;
-    --button-border: #5c4f3f;
-    --button-shadow: #c5ac8e;
-    --background: #eae0d6;
-    --navigation-bg: #eae0d6;
-    --navigation-color: #000000;
-    --color: #000000;
-    --navigation-shadow: #22333b;
-    --nav-items-color: #5c4f3f;
-    --about-us-pie: url(./assets/svg/aboutus-pie-light.svg);
-    --ready-to-elevate-bg: #22333b;
-    --ready-to-elevate-color: #eae0d6;
-    --returns-calculator-bg: #eae0d6;
-    --returns-calculator-color: #22333b;
-    --returns-calculator-border: #ffffff;
-    --amount-bg: #5c4f3f;
-    --amount-color: #ffffff;
-    --amount-border: #eae0d6;
-    --progress-bg: #22333b15;
-    --progress-color: #22333b;
-    --rich-club-coin-bg: url(./assets/webp/rich-club-coin-light.webp);
-    --rich-club-coin-title: #5c4f3f;
-    --rich-club-coin-bg-color: #ffffff;
-    --rich-club-coin-color: #000000;
-    --footer-bar: #22333b;
-  }
+:root {
+  --button-fill: #ffffff;
+  --button-border: #5c4f3f;
+  --button-shadow: #c5ac8e;
+  --background: #070321;
+  --navigation-bg: #eae0d6;
+  --navigation-color: #000000;
+  --welcome-color: #070321;
+  --color: #ffffff;
+  --navigation-shadow: #22333b;
+  --nav-items-color: #5c4f3f;
+  --about-us-pie: url(./assets/svg/aboutus-pie-dark.svg);
+  --ready-to-elevate-bg: #eae0d6;
+  --ready-to-elevate-color: #22333b;
+  --returns-calculator-bg: #eae0d6;
+  --returns-calculator-color: #22333b;
+  --returns-calculator-border: #22333b;
+  --amount-bg: #ffffff;
+  --amount-color: #070321;
+  --amount-border: #eae0d6;
+  --progress-bg: #22333b15;
+  --progress-color: #22333b;
+  --rich-club-coin-bg: url(./assets/webp/rich-club-coin-light.webp);
+  --rich-club-coin-title: #070321;
+  --rich-club-coin-bg-color: #070321;
+  --rich-club-coin-color: #ffffff;
+  --footer-bar: #eae0d6;
 }
 
 @font-face {

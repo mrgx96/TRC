@@ -14,9 +14,24 @@
   padding-bottom: 66px;
 }
 
-.aboutus > img {
+.description {
+  display: flex;
+  flex-direction: row;
   margin-top: 90px;
-  content: var(--about-us-pie);
+  padding: 0 240px 0 280px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description > ul {
+  font-size: 32px;
+  color: var(--color);
+  max-width: 560px;
+  padding-top: 90px;
+}
+
+.description > img {
+  max-width: 100%;
 }
 
 .imageMask {

@@ -1,7 +1,7 @@
 .background {
   background: transparent var(--rich-club-coin-bg) no-repeat top center;
   background-size: cover;
-  mix-blend-mode: darken;
+  /* mix-blend-mode: darken; */
   top: 0;
   right: 0;
   bottom: 0;
@@ -13,6 +13,25 @@
   position: relative;
   min-height: 100vh;
   padding: 100px 102px 100px 186px;
+}
+
+.section > div:first-child {
+  mask-image: url(../assets/svg/footer-bar.svg);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  height: 146px;
+  position: absolute;
+  top: -105px;
+  left: 0;
+  right: 0;
+}
+
+.section > div:first-child::before {
+  display: block;
+  content: '';
+  background-color: var(--rich-club-coin-title);
+  width: 100%;
+  height: 100%;
 }
 
 .section > h2 {

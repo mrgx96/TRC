@@ -5,6 +5,7 @@ export default function RichClubCoin() {
     <div style={{ position: 'relative', marginTop: 100 }}>
       <section className={style.background}></section>
       <section className={style.section}>
+        <div></div>
         <h2>Why choose Rich Club Coin?</h2>
         <div className={style.description}>
           <ul>

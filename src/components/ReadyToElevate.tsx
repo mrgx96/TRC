@@ -18,7 +18,7 @@ export default function ReadyToElevate() {
           <h3>Returns Calculator</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <strong>IF i Buy</strong>
-          <div className={style.amount}>10000000</div>
+          <div className={style.amount}>50</div>
           <Progress percent={50} />
           <div className={style.calcResult}>
             <strong>

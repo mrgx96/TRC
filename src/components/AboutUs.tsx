@@ -1,4 +1,5 @@
 import style from './aboutus.module.css';
+import imagePie from '../assets/svg/aboutus-pie.svg';
 
 export default function AboutUs() {
   return (
@@ -9,7 +10,15 @@ export default function AboutUs() {
       <div className={style.imageMask}>
         <div className={style.image}></div>
       </div>
-      <img className="center-block" alt="About Us" />
+      <div className={style.description}>
+        <ul>
+          <li>
+            There will only be 1000 tokens and 91% of them are gonna be released while the remaining 9% are gonna be
+            used for marketing.
+          </li>
+        </ul>
+        <img src={imagePie} className="center-block" alt="About Us" />
+      </div>
     </section>
   );
 }
