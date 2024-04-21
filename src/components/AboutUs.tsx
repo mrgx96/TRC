@@ -4,9 +4,7 @@ import imagePie from '../assets/svg/aboutus-pie.svg';
 export default function AboutUs() {
   return (
     <section className={style.aboutus}>
-      <h2>
-        👑 Join the elite league of wealth with our exclusive meme coin designed for the financial aristocracy! 👑
-      </h2>
+      <h2>👑 Our goal is to make a single RICL token worth a million dollars by the end of 2025 👑</h2>
       <div className={style.imageMask}>
         <div className={style.image}></div>
       </div>
