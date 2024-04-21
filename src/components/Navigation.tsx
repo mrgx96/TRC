@@ -6,7 +6,7 @@ export default function Navigation() {
   return (
     <nav className={style.navigation}>
       <img className="logo" src="logo.png" alt="Logo" />
-      <h1>The Rich Club</h1>
+      <strong>The Rich Club</strong>
       <ul className={style.navItems}>
         <li>
           <a href="">Home</a>

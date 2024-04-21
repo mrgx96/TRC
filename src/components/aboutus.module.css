@@ -16,6 +16,7 @@
 
 .aboutus > img {
   margin-top: 90px;
+  content: var(--about-us-pie);
 }
 
 .imageMask {

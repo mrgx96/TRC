@@ -5,7 +5,7 @@
   min-height: 100px;
   border-radius: 20px;
   position: relative;
-  background-color: var(--background);
+  background-color: var(--navigation-bg);
   box-shadow: 6px 6px 0 0 var(--navigation-shadow);
   margin: 0 auto;
   padding: 0 35px 0 192px;
@@ -21,10 +21,10 @@
   left: 40px;
 }
 
-.navigation > h1 {
+.navigation > strong {
   font-size: 32px;
   font-weight: normal;
-  color: var(--color);
+  color: var(--navigation-color);
 }
 
 .navItems {

@@ -1,5 +1,4 @@
 import style from './aboutus.module.css';
-import pie from '../assets/svg/aboutus-pie.svg';
 
 export default function AboutUs() {
   return (
@@ -10,7 +9,7 @@ export default function AboutUs() {
       <div className={style.imageMask}>
         <div className={style.image}></div>
       </div>
-      <img src={pie} className="center-block" alt="About Us" />
+      <img className="center-block" alt="About Us" />
     </section>
   );
 }
