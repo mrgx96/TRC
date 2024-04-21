@@ -1,7 +1,9 @@
 import './App.css';
 import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import ReadyToElevate from './components/ReadyToElevate';
+import RichClubCoin from './components/RichClubCoin';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Home />
       <AboutUs />
       <ReadyToElevate />
+      <RichClubCoin />
+      <Footer />
     </main>
   );
 }

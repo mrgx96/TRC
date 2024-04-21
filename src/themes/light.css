@@ -16,4 +16,9 @@
   --amount-border: #eae0d6;
   --progress-bg: #22333b15;
   --progress-color: #22333b;
+  --rich-club-coin-bg: url(../assets/webp/rich-club-coin-light.webp);
+  --rich-club-coin-title: #5c4f3f;
+  --rich-club-coin-bg-color: #ffffff;
+  --rich-club-coin-color: #000000;
+  --footer-bar: #22333b;
 }
