@@ -1,4 +1,6 @@
 .footer {
+  background: url(../assets/webp/footer.webp) no-repeat center center;
+  background-size: cover;
   position: relative;
   padding-bottom: 70px;
   min-height: 835px;
