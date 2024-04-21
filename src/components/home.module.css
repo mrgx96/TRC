@@ -1,0 +1,20 @@
+.home {
+  height: 100vh;
+  position: relative;
+  padding-top: 46px;
+}
+
+.welcome {
+  background: transparent url(../assets/welcome-bg.svg) no-repeat center center;
+  min-height: 190px;
+  position: absolute;
+  font-size: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  color: var(--color);
+}
