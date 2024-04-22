@@ -2,7 +2,7 @@ import style from './richclubcoin.module.css';
 
 export default function RichClubCoin() {
   return (
-    <div style={{ position: 'relative', marginTop: 100 }}>
+    <div id="roadmap" style={{ position: 'relative', marginTop: 100 }}>
       <section className={style.background}></section>
       <section className={style.section}>
         <div></div>

@@ -3,7 +3,7 @@ import style from './readytoelevate.module.css';
 
 export default function ReadyToElevate() {
   return (
-    <section className={style.section}>
+    <section id="tokenomics" className={style.section}>
       <div>
         <div className={style.description}>
           <h2>Ready to Elevate Your Portfolio?" 💰🛍️</h2>

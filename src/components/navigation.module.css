@@ -25,6 +25,7 @@
   font-size: 32px;
   font-weight: normal;
   color: var(--navigation-color);
+  text-align: center;
 }
 
 .navItems {
@@ -86,4 +87,41 @@
   min-width: 200px;
   border: 0 !important;
   box-shadow: 6px 6px 0 0 var(--button-shadow);
+}
+
+@media only screen and (max-width: 1400px) {
+  .navItems {
+    gap: 35px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .navItems {
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navigation {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 172px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navItems {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navigation > img {
+    left: 20px;
+  }
+
+  .navButtons {
+    flex-wrap: wrap;
+  }
 }

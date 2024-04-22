@@ -3,22 +3,44 @@ import telegram from '../assets/svg/telegram.svg';
 import twitter from '../assets/svg/twitter.svg';
 
 export default function Navigation() {
+  const onMoveWindowScrollTo = (evt: React.MouseEvent, hash: string) => {
+    evt.stopPropagation();
+    evt.preventDefault();
+    const element = document.getElementById(hash);
+    if (history.pushState) {
+      history.pushState(null, '', `#${hash}`);
+    } else {
+      window.location.hash = hash;
+    }
+    window.scrollTo({
+      top: element?.offsetTop || 0,
+      behavior: 'smooth',
+    });
+  };
   return (
     <nav className={style.navigation}>
       <img className="logo" src="logo.png" alt="Logo" />
       <strong>The Rich Club</strong>
       <ul className={style.navItems}>
         <li>
-          <a href="">Home</a>
+          <a href="#" onClick={(evt) => onMoveWindowScrollTo(evt, '')}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="">About Us</a>
+          <a href="#about-us" onClick={(evt) => onMoveWindowScrollTo(evt, 'about-us')}>
+            About Us
+          </a>
         </li>
         <li>
-          <a href="">Tokenomics</a>
+          <a href="#tokenomics" onClick={(evt) => onMoveWindowScrollTo(evt, 'tokenomics')}>
+            Tokenomics
+          </a>
         </li>
         <li>
-          <a href="">Roadmap</a>
+          <a href="#roadmap" onClick={(evt) => onMoveWindowScrollTo(evt, 'roadmap')}>
+            Roadmap
+          </a>
         </li>
       </ul>
       <ul className={style.navButtons}>
