@@ -11,7 +11,7 @@ export default function AboutUs() {
       <div className={style.description}>
         <ul>
           <li>
-            There will only be 1000 tokens and 91% of them are gonna be released while the remaining 9% are gonna be
+            There will only be 10,000 tokens and 91% of them are gonna be released while the remaining 9% are gonna be
             used for marketing.
           </li>
         </ul>
