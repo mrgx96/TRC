@@ -31,3 +31,10 @@
   left: 0;
   right: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    background-position: center top;
+    background-size: contain;
+  }
+}

@@ -24,6 +24,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .home {
+    background-position: center 80%;
+    background-size: contain;
+  }
   .welcome {
     font-size: 32px;
   }
