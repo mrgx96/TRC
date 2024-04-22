@@ -89,4 +89,15 @@
     flex-direction: column;
     gap: 20px;
   }
+
+  .section > h2 {
+    display: block;
+    background: var(--rich-club-coin-color);
+    padding: 20px 30px;
+    border-radius: 10px;
+  }
+
+  .description > ul > li {
+    padding: 20px 30px;
+  }
 }
