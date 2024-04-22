@@ -79,3 +79,14 @@
   border-radius: 5px;
   background-color: var(--rich-club-coin-bg-color);
 }
+
+@media only screen and (max-width: 1024px) {
+  .section {
+    padding: 100px 50px;
+  }
+
+  .description {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
