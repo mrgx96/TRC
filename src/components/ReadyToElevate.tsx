@@ -7,10 +7,10 @@ export default function ReadyToElevate() {
       <div>
         <div className={style.description}>
           <h2>Ready to Elevate Your Portfolio?" 💰🛍️</h2>
-          <p>👑 Join the ranks of the financial elite with Rich Club Coin! 👑</p>
+          <p>👑 Join the ranks of the financial elite with Rich Club Coin!</p>
           <p>
             🚀 Don't miss your chance to seize the ultimate symbol of wealth and exclusivity. Invest now and ascend to
-            new heights of prosperity! 🚀
+            new heights of prosperity!
           </p>
           <p>💎 Secure your place among the affluent. Buy Rich Club Coin today!</p>
         </div>
