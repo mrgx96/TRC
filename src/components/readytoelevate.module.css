@@ -71,10 +71,8 @@
 .amount {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 20px;
   align-items: center;
-  font-size: 18px;
-  font-weight: bold;
   border-radius: 8px;
   background-color: var(--amount-bg);
   color: var(--amount-color);
@@ -84,6 +82,14 @@
   padding: 0 15px 0 20px;
   line-height: 1;
   margin-top: 9px;
+}
+
+.amount > input {
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: bold;
+  border: 0;
+  outline: none;
 }
 
 .amount::after {

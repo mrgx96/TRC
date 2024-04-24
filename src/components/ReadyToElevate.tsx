@@ -1,7 +1,10 @@
+import { useRef, useState } from 'react';
 import Progress from './Progress';
 import style from './readytoelevate.module.css';
 
 export default function ReadyToElevate() {
+  const [value, setValue] = useState(50);
+  const textRef = useRef(null);
   return (
     <section id="tokenomics" className={style.section}>
       <div>
@@ -18,13 +21,15 @@ export default function ReadyToElevate() {
           <h3>Returns Calculator</h3>
           <p>Calculate how much your RICL tokens will be worth if you hold till the end of 2025</p>
           <strong>IF i Buy</strong>
-          <div className={style.amount}>50</div>
+          <div className={style.amount}>
+            <input type="number" ref={textRef} onChange={() => setValue(textRef.current?.value || 0)} value={value} />
+          </div>
           <Progress percent={50} />
           <div className={style.calcResult}>
             <strong>
               Your $The Rich Club<small>would be worth</small>
             </strong>
-            <strong>$470</strong>
+            <strong>${value * 1_000_000}</strong>
           </div>
         </div>
       </div>
