@@ -27,7 +27,7 @@ export default function ReadyToElevate() {
           <Progress percent={50} />
           <div className={style.calcResult}>
             <strong>
-              Your $The Rich Club<small>would be worth</small>
+              Your $RICL<small>would be worth</small>
             </strong>
             <strong>${value * 1_000_000}</strong>
           </div>
