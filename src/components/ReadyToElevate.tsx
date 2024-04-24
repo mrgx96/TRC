@@ -4,7 +4,8 @@ import style from './readytoelevate.module.css';
 
 export default function ReadyToElevate() {
   const [value, setValue] = useState(50);
-  const textRef = useRef(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const textRef = useRef<any>(null);
   return (
     <section id="tokenomics" className={style.section}>
       <div>
