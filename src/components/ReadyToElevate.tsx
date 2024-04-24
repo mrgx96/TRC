@@ -16,7 +16,7 @@ export default function ReadyToElevate() {
         </div>
         <div className={style.returnsCalculator}>
           <h3>Returns Calculator</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <p>Calculate how much your RICL tokens will be worth if you hold till the end of 2025</p>
           <strong>IF i Buy</strong>
           <div className={style.amount}>50</div>
           <Progress percent={50} />
