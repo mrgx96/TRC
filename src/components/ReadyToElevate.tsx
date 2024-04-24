@@ -1,5 +1,4 @@
 import { useRef, useState } from 'react';
-import Progress from './Progress';
 import style from './readytoelevate.module.css';
 
 export default function ReadyToElevate() {
@@ -25,7 +24,6 @@ export default function ReadyToElevate() {
           <div className={style.amount}>
             <input type="number" ref={textRef} onChange={() => setValue(textRef.current?.value || 0)} value={value} />
           </div>
-          <Progress percent={50} />
           <div className={style.calcResult}>
             <strong>
               Your $RICL<small>would be worth</small>
