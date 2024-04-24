@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import style from './readytoelevate.module.css';
 
 export default function ReadyToElevate() {
-  const [value, setValue] = useState(50);
+  const [value, setValue] = useState(1);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const textRef = useRef<any>(null);
   return (
