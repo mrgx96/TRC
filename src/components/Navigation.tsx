@@ -40,12 +40,12 @@ export default function Navigation() {
       </ul>
       <ul className={style.navButtons}>
         <li>
-          <a href="https://t.me/therichclubcoin">
+          <a href="https://t.me/therichclubcoin" target="_blank">
             <img src={telegram} alt="Telegram" title="Telegram" />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/therichclubcoin">
+          <a href="https://twitter.com/therichclubcoin" target="_blank">
             <img src={twitter} alt="Twitter" title="Twitter" />
           </a>
         </li>
