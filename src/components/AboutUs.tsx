@@ -8,11 +8,9 @@ export default function AboutUs() {
       <div className={style.imageMask}>
         <div className={style.image}></div>
       </div>
-      <div className={style.description}>
+      <div id="tokenomics" className={style.description}>
         <ul>
-          <li>
-            There will only be 10,000 tokens
-          </li>
+          <li>There will only be 10,000 tokens</li>
         </ul>
         <img src={imagePie} className="center-block" alt="About Us" />
       </div>

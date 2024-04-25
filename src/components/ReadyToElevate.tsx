@@ -6,7 +6,7 @@ export default function ReadyToElevate() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const textRef = useRef<any>(null);
   return (
-    <section id="tokenomics" className={style.section}>
+    <section className={style.section}>
       <div>
         <div className={style.description}>
           <h2>Ready to Elevate Your Portfolio?" 💰🛍️</h2>

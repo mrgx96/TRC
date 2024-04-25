@@ -23,13 +23,8 @@ export default function Navigation() {
       <strong>The Rich Club</strong>
       <ul className={style.navItems}>
         <li>
-          <a href="#" onClick={(evt) => onMoveWindowScrollTo(evt, '')}>
-            Home
-          </a>
-        </li>
-        <li>
           <a href="#about-us" onClick={(evt) => onMoveWindowScrollTo(evt, 'about-us')}>
-            About Us
+            Our Mission
           </a>
         </li>
         <li>
@@ -39,7 +34,7 @@ export default function Navigation() {
         </li>
         <li>
           <a href="#roadmap" onClick={(evt) => onMoveWindowScrollTo(evt, 'roadmap')}>
-            Roadmap
+            Why $RICL?
           </a>
         </li>
       </ul>
