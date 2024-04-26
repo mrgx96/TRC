@@ -50,7 +50,11 @@ export default function Navigation() {
           </a>
         </li>
         <li>
-          <a href="" className={style.textButton}>
+          <a
+            href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6fsy8LbeKmkBmoxjYvgmXrtVkhzUA6iGsR4T86MpzAiE&inputAmount=0&fixed=in"
+            target="_blank"
+            className={style.textButton}
+          >
             Buy now
           </a>
         </li>
